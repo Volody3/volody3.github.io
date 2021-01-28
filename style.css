@@ -1,0 +1,198 @@
+header, footer {
+  background-color: #38b6ff;
+  padding: 10px;
+}
+ 
+main {
+  padding: 10px;
+  background-color: silver;
+}
+#img {
+  width: 5%;
+}
+#Site name {
+
+}
+#Mike {
+ width: 15%;
+}
+#firstdiv {
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  margin: 20px;
+  float: left;
+  width: 40%;
+}
+#seconddiv{
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  margin: 20px;
+  float: right;
+  width: 40%;
+}
+#sully {
+  width: 15%;
+}
+#randall {
+  width: 15%;
+}
+  #threediv{
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  margin: 20px;
+  float: left;
+  width: 40%;
+}
+#comment1{
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  margin-left: 40px;
+}
+#comment2{
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+}
+#comment3{
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  margin-left: 40px;
+}
+#fourdiv{
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  margin: 20px;
+  float: right;
+  width: 40%;
+}
+#boo {
+  width: 15%;
+}
+#clear {
+  clear: both;
+}
+    
+#menu{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+   /* z-index: 10;*/
+}
+#menu ul{
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+}
+
+
+#menu > ul::after{
+ 
+    display: block;
+    width: 100%;
+    height: 0px;
+    clear: both;
+    content: " ";
+}
+
+
+#menu ul li{
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+
+#menu ul li a{
+    display: block;
+    padding: 9px 25px 0px 25px;
+    font-size: 14px;
+    line-height: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 36px;
+    box-sizing: border-box;
+    color: white;
+}
+
+#menu ul li ul{
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    display: none;
+    width: 200px;
+    background: #38b6ff;
+}
+
+ 
+
+#menu ul li:hover ul{
+    display: block;
+}
+.main {
+  font-family:Arial;
+  width:500px;
+  display:block;
+  margin:0 auto;
+}
+h3 {
+    background: #fff;
+    color: #3498db;
+    font-size: 36px;
+    line-height: 100px;
+    margin: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+}
+.action{
+  display:block;
+  margin:100px auto;
+  width:100%;
+  text-align:center;
+}
+.action a {
+  display:inline-block;
+  padding:5px 10px; 
+  background:#f30;
+  color:#fff;
+  text-decoration:none;
+}
+.action a:hover{
+  background:#000;
+}
+#Mike1 {
+  width: 40%;
+}
+#sully1 {
+  width: 40%;
+}
+#randall1 {
+  width: 40%;
+}
+#boo1 {
+  width: 40%;
+}
+#art1 {
+  width: 40%;
+}
+#ul1 {
+  list-style: none;
+}
+
+
+
+Resources
